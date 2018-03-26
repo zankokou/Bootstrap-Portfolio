@@ -39,9 +39,9 @@ h1, h2, h3 {
 
 }
 .navbar-right{
-    margin-right: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    margin-right: 10px;
+    margin-top: 8px;
+  
     font-weight: bolder;
 }
 
@@ -119,12 +119,19 @@ p {
     font-size: 30px;
 }
 
-.images{
+.navbar-nav li a {
+    padding: 0px;
     margin-left: 30px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    
+}
+
+.images{
+    display: inline-block;
     height: 70px;
     width: 70px;
+    padding: 0px;
 }
     
 h4{
@@ -141,6 +148,7 @@ footer{
     padding: 25px;;
     background: #666666;
 }
+
 
 
 
