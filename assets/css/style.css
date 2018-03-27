@@ -83,10 +83,24 @@ h3{
     padding-right: 25px;
     margin-left: 14px;
     width: 590px;
-    /* margin-top: 25px; */
+
 }
 
+#MyPort{
+    background: #ffffff;
+    padding: 0px;
+    padding-right: 25px;
+    margin-left: 14px;
+    width: 590px;
+    height: 830px;
+    margin-bottom: 150px;
+}
 
+.btn{
+    background: #4aaaaf;
+    border: none;
+    
+}
 
 hr{
     border: solid 1px;
@@ -122,7 +136,7 @@ p {
     padding-left: 0px;
     max-height: 500px;
     margin-bottom: 120px;
-    /* max-width: 500px; */
+
 
 }
 .connect{
@@ -144,6 +158,26 @@ p {
     padding: 0px;
 }
     
+.port {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.text{
+    position: relative;
+    margin-top: -60px;
+    background: #4aaaaf;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+
+}
+
 h4{
     color: #ffffff;
     text-align: center;
