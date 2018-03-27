@@ -40,8 +40,7 @@ h1, h2, h3 {
 }
 .navbar-right{
     margin-right: 10px;
-    margin-top: 8px;
-  
+    margin-top: 16px;
     font-weight: bolder;
 }
 
@@ -82,7 +81,7 @@ h3{
     padding: 0px;
     padding-right: 25px;
     margin-left: 14px;
-    width: 590px;
+    max-width: 590px;
 
 }
 
@@ -106,17 +105,18 @@ hr{
     border: solid 1px;
     color:#dddddd;
     margin-left: 30px;
-    margin-right: 5px;
+    margin-right: 15px;
     margin-bottom: 0px;
 
 }
 
 #me {
-    height: 150px;
-    width: 250px;
+    max-height: 150px;
+    max-width: 250px;
     margin-top: 25px;
     margin-right: 25px;
     margin-left: 30px;   
+    
 }
 p {
 
@@ -135,6 +135,7 @@ p {
     background: #ffffff;
     padding-left: 0px;
     max-height: 500px;
+    max-width: 550px;
     margin-bottom: 120px;
 
 
@@ -143,12 +144,11 @@ p {
     font-size: 30px;
 }
 
-.navbar-nav li a {
-    padding: 0px;
-    margin-left: 30px;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    
+
+
+.links {
+    padding: 20px 0px 25px 25px;
+
 }
 
 .images{
@@ -194,7 +194,30 @@ footer{
 }
 
 
+@media screen and (max-width: 759px) {
 
+    #top-wrapper{
+    width: 100%;
+
+    }
+    .navbar-default{
+    width: 100%;
+    }
+
+    #AboutMe{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 0px;
+    }
+
+
+    #ContactMe{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 0px;
+    }
+
+}
 
 
 
