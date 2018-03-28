@@ -1,12 +1,15 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body{
     background-image: url("../images/sakura.png");
     overflow: auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
-    color: #777777  
+    color: #777777 ;
+    width: 100%;
+
 
 }
 
@@ -200,24 +203,40 @@ footer{
     width: 100%;
 
     }
-    .navbar-default{
+    .container{
     width: 100%;
     }
 
     #AboutMe{
-    width: 50%;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    }
+
+   .links{
+       margin-left: 5%;
+   }
+
+    #ContactMe{
+    width: 100%;
     margin-top: 20px;
     margin-left: 0px;
     }
 
 
-    #ContactMe{
-    width: 50%;
-    margin-top: 20px;
-    margin-left: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    #MyPort{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 1275px;
     }
 
 }
+    
+   
+
 
 
 
