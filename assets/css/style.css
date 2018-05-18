@@ -163,7 +163,7 @@ p {
     
 
 .picture{
-    height: 170px;
+    height: 160px;
     width: 200px;
     border: 1px solid #4db6ac;
 }
@@ -172,14 +172,14 @@ p {
     float: left;
     width: 200px;
     height: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     margin-left: 35px;
     margin-top: 30px;
 }
 
 .text{
     position: relative;
-    margin-top: 10px;
+    margin-top: 5px;
     background: #4daaaf ;
     color: #ffffff;
     text-align: center;
